@@ -37,8 +37,8 @@ requirements:
     - bumps
     - dfo-ls
     - gemmi
-    - cryspy
-    - crysfml
+    - cryspy >=0.12.1
+    - crysfml >=0.7.0
     - diffpy.pdffit2
     - diffpy.utils
     - uncertainties
@@ -47,8 +47,8 @@ requirements:
     - darkdetect
     - pandas
     - plotly
-    - arviz
-    - py3Dmol
+    - pillow
+    - pybaselines >=1.1
 
 tests:
   - python:
